@@ -1,0 +1,6 @@
+/Users/sjordonez/c-sharp-comp3602/COMP3602A3/COMP3602A3/bin/Debug/COMP3602A3.exe
+/Users/sjordonez/c-sharp-comp3602/COMP3602A3/COMP3602A3/bin/Debug/COMP3602A3.pdb
+/Users/sjordonez/c-sharp-comp3602/COMP3602A3/COMP3602A3/obj/Debug/COMP3602A3.csproj.AssemblyReference.cache
+/Users/sjordonez/c-sharp-comp3602/COMP3602A3/COMP3602A3/obj/Debug/COMP3602A3.csproj.CoreCompileInputs.cache
+/Users/sjordonez/c-sharp-comp3602/COMP3602A3/COMP3602A3/obj/Debug/COMP3602A3.exe
+/Users/sjordonez/c-sharp-comp3602/COMP3602A3/COMP3602A3/obj/Debug/COMP3602A3.pdb
