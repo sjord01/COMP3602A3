@@ -20,8 +20,8 @@ namespace COMP3602A3
 
         private Invoice ParseInvoice(string line)
         {
-            var parts = line.Split('|');
-            var headerParts = parts[0].Split(':');
+            var parts = line.Split('|'); //// Splits the invoice into header and item details.
+            var headerParts = parts[0].Split(':'); //Extracts the invoice metadata
 
             var invoice = new Invoice
             {
@@ -33,6 +33,7 @@ namespace COMP3602A3
                 Attn = headerParts[5]
             };
 
+            // Processes each invoice line item and adds it to the invoice details list.
             for (var i = 1; i < parts.Length; i++)
             {
                 var detailParts = parts[i].Split(':');
@@ -42,7 +43,7 @@ namespace COMP3602A3
                     Sku = detailParts[1],
                     Description = detailParts[2],
                     Price = decimal.Parse(detailParts[3]),
-                    Taxable = detailParts[4] == "1"
+                    Taxable = detailParts[4] == "1" // Converts "1" to true (taxable), otherwise false.
                 });
             }
 

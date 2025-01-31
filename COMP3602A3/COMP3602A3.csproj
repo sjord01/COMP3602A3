@@ -40,7 +40,9 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Config.cs" />
         <Compile Include="Invoice.cs" />
+        <Compile Include="InvoiceCalculator.cs" />
         <Compile Include="InvoiceDetail.cs" />
         <Compile Include="ProcessData.cs" />
         <Compile Include="Program.cs"/>
